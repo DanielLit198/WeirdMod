@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "weirdmod",
+  "version": "${version}",
+  "name": "Weirdmod",
+  "description": "It‘s about a weird mod for my video",
+  "authors": [
+    "Daniel"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/weirdmod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.daniel.weirdmod.weirdmod.client.WeirdmodClient"
+    ],
+    "main": [
+      "com.daniel.weirdmod.weirdmod.Weirdmod"
+    ]
+  },
+  "mixins": [
+    "weirdmod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.14",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}
