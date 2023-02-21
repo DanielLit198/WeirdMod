@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "item": "skeleton_skull"
+    },
+    "title": "这都能死!?",
+    "description": "哈哈哈哈哈哈这都能死!?",
+    "frame": "task",
+    "show_toast": true,
+    "annouce_to_chat":true,
+    "hidden": false
+  },
+  "criteria": {
+    "die": {
+      "trigger": "minecraft:entity_killed_player"
+    }
+  },
+  "requirements": [["die"]]
+}
